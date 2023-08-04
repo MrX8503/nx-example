@@ -2,7 +2,7 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "tasksRunnerOptions": {
     "default": {
-      "runner": "nx-cloud",
+      "runner": "@vercel/remote-nx",
       "options": {
         "cacheableOperations": [
           "build",
@@ -10,8 +10,7 @@
           "test",
           "e2e",
           "build-storybook"
-        ],
-        "accessToken": "YWZhYTc4MzItN2Y2NC00YTRlLWI4ZGQtNGQ4MmMwMGRkNzJkfHJlYWQtd3JpdGU="
+        ]
       }
     }
   },
